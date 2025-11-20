@@ -14,10 +14,9 @@ logging.basicConfig(level=logging.INFO, stream=sys.stderr, format='%(levelname)s
 mcp = FastMCP("SAP_Product_Info")
 
 # 1. Define API Credentials and Base URL
-# Base URL from your Java code: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_PRODUCT_SRV/A_Product
 SAP_BASE_URL = "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_PRODUCT_SRV/A_Product"
 # NOTE: Using the validated sandbox key from your Java code
-SAP_API_KEY = "YXxoMnRrsAyLmrIHcS1NZSujCd83uwHl"
+SAP_API_KEY = "<api-key-goes-here>"
 
 
 # --- TOOL FUNCTION ---
