@@ -77,6 +77,7 @@ graph LR
 * **Python 3.10** or higher
 * **pip** or **uv** (recommended)
 * Public Sandbox API key
+* Claude desktop app
 
 ### Setup Guide
 
